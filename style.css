@@ -1,0 +1,229 @@
+/* Created By Smok Codes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    padding: 0 20px;
+}
+
+.G {
+    color: blue;
+}
+
+._g {
+    color: blue;
+    position: relative;
+    top: -266px;
+    left: 128px;
+}
+
+.o {
+    color: red;
+    position: relative;
+    top: -90px;
+    left: 54px;
+}
+
+._o {
+    color: yellow;
+    position: relative;
+    top: -170px;
+    left: 90px;
+}
+
+.l {
+    color: green;
+    position: relative;
+    top: -367px;
+    left: 172px;
+}
+
+.e {
+    color: red;
+    position: relative;
+    top: -479px;
+    left: 190px;
+}
+
+.logo {
+    opacity: 0.75;
+    font-size: 40px;
+    position: relative;
+    left: 490px;
+    top: 67px;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+.wrapper {
+    max-width: 450px;
+    margin: -380px auto;
+}
+
+.wrapper .search-input {
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.search-input input {
+    height: 55px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-input.active input {
+    border-radius: 5px 5px 0 0;
+}
+
+.search-input .autocom-box {
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.search-input.active .autocom-box {
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.autocom-box li {
+    list-style: none;
+    padding: 8px 12px;
+    display: none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search-input.active .autocom-box li {
+    display: block;
+}
+
+.autocom-box li:hover {
+    background: #efefef;
+}
+
+.search-input .icon {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.gmail {
+    color: black;
+    cursor: pointer;
+    line-height: 24px;
+    font-family: arial,sans-serif;
+    position: relative;
+    left: 1060px;
+    top: 20px;
+    text-decoration: none;
+}
+
+.gmail:hover {
+    text-decoration: underline;
+}
+
+.images {
+    color: black;
+    cursor: pointer;
+    line-height: 24px;
+    font-family: arial,sans-serif;
+    position: relative;
+    left: 1115px;
+    top: -5px;
+    text-decoration: none;
+}
+
+.images:hover {
+    text-decoration: underline;
+}
+
+.Logo_img {
+    border-radius: 50%;
+    width: 30px;
+    position: relative;
+    left: 1190px;
+    top: -30px;
+    cursor: pointer;
+}
+
+.cards {
+    position: relative;
+    left: 260px;
+    top: 200px;
+}
+
+.yt {
+    position: relative;
+    bottom: -196px;
+    left: 170px;
+    width: 30px;
+}
+
+.stack {
+    position: relative;
+    bottom: -195px;
+    left: 217px;
+    width: 30px;
+}
+
+.geeks {
+    position: relative;
+    bottom: -196px;
+    left: 283px;
+    width: 30px;
+}
+
+.yt_text {
+    text-decoration: none;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: 390px;
+    left: 421px;
+}
+
+.stack_text {
+    text-decoration: none;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: 372px;
+    left: 484px;
+}
+
+
+.geeks_text {
+    text-decoration: none;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: 355px;
+    left: 585px;
+}
